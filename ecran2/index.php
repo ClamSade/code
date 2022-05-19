@@ -7,24 +7,27 @@
         <title>Tableau de bord</title>
     </head>
     <body>
-        <div class="nav">
+        
             <nav>
                 <ul>
-                    <li id="menu"><a href="#">MENU</a>
+                    <li><a href="#">MENU</a>
                         <ul>
-                            <li><a href="#">ecran1</a></li>
-                            <li><a href="#">ecran2</a></li>
-                            <li><a href="#">ecran3</a></li>
+                            <li><a href="../ecran1/index.php">Connexion</a></li>
+                            <li><a href="../ecran2/index.php">Tableau de bord</a></li>
+                            <li><a href="../ecran3/index.php">Calendrier</a></li>
+                            <li><a href="../ecran4/index.php">Nouvelle filière</a></li>
+                            <li><a href="../ecran5/index.php">Nouvelle session</a></li>
+                            <li><a href="../ecran6/index.php">Générer un PDF</a></li>
                         </ul>
                     </li>
-                    <li id="tdb">TABLEAU DE BORD</li>
-                    <li id="deco"><a href="#">DECONNEXION</a></li>
+                    <li>TABLEAU DE BORD</li>
+                    <li><a href="#">DECONNEXION</a></li>
                 </ul>
             </nav>
-        </div>
+        
         <div class="ajout_filiere">
             <a href="../ecran4/index.php">+ AJOUTER UNE NOUVELLE FILIERE</a>
         </div>
         
-    </body>
+</body>
 </html>
