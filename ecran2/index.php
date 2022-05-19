@@ -19,7 +19,7 @@
                 <li id="tdb">TABLEAU DE BORD</li>
                 <li id="deco"><a href="#">DECONNEXION</a></li>
             </ul>
-           
         </nav>
+        <a href="../ecran4/index.php"></a>
 </body>
 </html>
