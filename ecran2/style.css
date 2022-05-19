@@ -22,11 +22,6 @@ html, body
     text-align: right;
 }
 
-nav
-{
-    width: 100%;
-}
-
 li
 {
     list-style: none !important;
@@ -82,3 +77,15 @@ nav ul li:hover ul li
 {
     float: none;
 }
+
+.ajout_filiere a
+{
+    width: auto;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(26, 40, 68);
+    border: 2px rgb(26, 40, 68) solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
