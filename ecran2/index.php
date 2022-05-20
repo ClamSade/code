@@ -22,11 +22,21 @@
                     </li></ul></nav>  
                 </td>
                 <td class="tdb">TABLEAU DE BORD</td>
-                <td class="deco"><button>DECONNEXION</button></td>
+                <td class="deco"><button>DECO</button></td>
             </tr>
         </table>
         <div class="ajout_filiere">
             <a href="../ecran4/index.php">+ AJOUTER UNE NOUVELLE FILIERE</a>
+        </div>
+        <div class="planning">
+            <div class="now">
+                <h3>FILIERE DU JOUR</h3>
+            </div>
+            <div class="after">
+                <h3>FILIERE A VENIR</h3>
+            </div>
+            <div class="filiere">
+            </div>
         </div>
     </body>
 </html>
