@@ -11,7 +11,7 @@
         <table>
             <tr>
                 <td class="menu">
-                    <nav><ul><li><a href="#">MENU</a>
+                    <nav><ul><li><a href="#"><img src="menu.png"/></a>
                         <ul>
                         <li><a href="../ecran1/index.php">Connexion</a></li>
                             <li><a href="../ecran2/index.php">Tableau de bord</a></li>
@@ -22,21 +22,34 @@
                     </li></ul></nav>  
                 </td>
                 <td class="tdb">TABLEAU DE BORD</td>
-                <td class="deco"><button>DECO</button></td>
+                <td class="deco"><button><img src="déconnexion.png"></button></td>
             </tr>
         </table>
         <div class="ajout_filiere">
             <a href="../ecran4/index.php">+ AJOUTER UNE NOUVELLE FILIERE</a>
         </div>
-        <div class="planning">
-            <div class="now">
-                <h3>FILIERE DU JOUR</h3>
-            </div>
-            <div class="after">
-                <h3>FILIERE A VENIR</h3>
-            </div>
-            <div class="filiere">
-            </div>
-        </div>
+        <section class="planning">
+            <tr>
+                <td><h3 class="gauche">FILIERE DU JOUR</h3></td>
+                <td><h3 class="droite">FILIERE A VENIR</h3></td>
+            </tr>
+            <tr>
+                <td>
+                    <ul class="gauche">
+                        <li><button>ok</button></li>
+                        <li><button>ok</button></li>  
+                        <li><button>ok</button></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="droite">
+                        <li><button>ok</button></li>
+                        <li><button>ok</button></li>  
+                        <li><button>ok</button></li>
+                    </ul>
+                </td>
+            </tr>
+            
+        </section>
     </body>
 </html>
