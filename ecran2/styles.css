@@ -7,6 +7,13 @@ html, body
     height: 100%;
 }
 
+table
+{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgb(26, 40, 68);
+}
 li
 {
     list-style: none !important;
@@ -64,6 +71,8 @@ nav ul li:hover ul li
 {
     float: none;
 }
+
+
 
 .ajout_filiere
 {
