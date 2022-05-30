@@ -97,28 +97,22 @@ nav ul li:hover ul li
 
 .planning
 {
-    width: 100%;
+    width: 60%;
     margin: auto;
     border:  solid 2px rgb(26, 40, 68);
     border-radius: 20px;
     margin-top: 50px;
     text-align: center;
     vertical-align: middle;
-    background-color: aqua;
 }
 
-.gauche
+.planning button
 {
-    width: 40%;
-    display: flex;
+    width: 100%;
+    border-radius: 5px;
     float: left;
-}
-
-.droite
-{
-    width: 40%;
-    display: flex;
-    float: right;
+    margin-bottom: 5px;
+    padding: 5px;
 }
 
 

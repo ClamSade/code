@@ -28,7 +28,7 @@
         <div class="ajout_filiere">
             <a href="../ecran4/index.php">+ AJOUTER UNE NOUVELLE FILIERE</a>
         </div>
-        <section class="planning">
+        <section>
             <table class="planning">
                 <tr>
                     <td><h3 class="gauche">FILIERE DU JOUR</h3></td>
@@ -37,16 +37,20 @@
                 <tr>
                     <td>
                         <ul class="gauche">
-                            <li><button>ok</button></li>
-                            <li><button>ok</button></li>  
-                            <li><button>ok</button></li>
+                            <li><button>Filière 1</button></li>
+                            <li><button>Filière 2</button></li>  
+                            <li><button>Filière 3</button></li>
+                            <li><button>Filière 4</button></li>  
+                            <li><button>Filière 5</button></li>
                         </ul>
                     </td>
                     <td>
                         <ul class="droite">
-                            <li><button>ok</button></li>
-                            <li><button>ok</button></li>  
-                            <li><button>ok</button></li>
+                            <li><button>Filière 6</button></li>  
+                            <li><button>Filière 7</button></li>
+                            <li><button>Filière 8</button></li>
+                            <li><button>Filière 9</button></li>  
+                            <li><button>Filière 10</button></li>
                         </ul>
                     </td>
                 </tr>
