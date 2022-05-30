@@ -8,7 +8,7 @@
         <title>Tableau de bord</title>
     </head>
     <body>
-        <table>
+        <table class="nav">
             <tr>
                 <td class="menu">
                     <nav><ul><li><a href="#"><img src="menu.png"/></a>
@@ -29,27 +29,28 @@
             <a href="../ecran4/index.php">+ AJOUTER UNE NOUVELLE FILIERE</a>
         </div>
         <section class="planning">
-            <tr>
-                <td><h3 class="gauche">FILIERE DU JOUR</h3></td>
-                <td><h3 class="droite">FILIERE A VENIR</h3></td>
-            </tr>
-            <tr>
-                <td>
-                    <ul class="gauche">
-                        <li><button>ok</button></li>
-                        <li><button>ok</button></li>  
-                        <li><button>ok</button></li>
-                    </ul>
-                </td>
-                <td>
-                    <ul class="droite">
-                        <li><button>ok</button></li>
-                        <li><button>ok</button></li>  
-                        <li><button>ok</button></li>
-                    </ul>
-                </td>
-            </tr>
-            
+            <table class="planning">
+                <tr>
+                    <td><h3 class="gauche">FILIERE DU JOUR</h3></td>
+                    <td><h3 class="droite">FILIERE A VENIR</h3></td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul class="gauche">
+                            <li><button>ok</button></li>
+                            <li><button>ok</button></li>  
+                            <li><button>ok</button></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul class="droite">
+                            <li><button>ok</button></li>
+                            <li><button>ok</button></li>  
+                            <li><button>ok</button></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
         </section>
     </body>
 </html>
