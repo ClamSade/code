@@ -66,3 +66,52 @@ nav ul li:hover ul li
 {
     float: none;
 }
+
+.deco button 
+{
+    background-color: rgb(26, 40, 68);
+    border: solid rgb(26, 40, 68) 1px;
+}
+
+.retour a
+{
+    background-color: rgb(26, 40, 68);
+    border: solid rgb(26, 40, 68) 1px;
+    margin-left: -80px;
+}
+
+.filiere
+{
+    table-layout: fixed;
+    width: 60%;
+    height: 500px;
+    margin: auto;
+    border:  solid 2px rgb(26, 40, 68);
+    border-radius: 20px;
+    margin-top: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.filiere input
+{
+    width: 90%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#button
+{
+    width: 100%;
+}
+
+th a
+{
+    text-decoration: none;
+    color: rgb(26, 40, 68);
+    border: 2px solid rgb(26, 40, 68);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+

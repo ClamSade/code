@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="../normalize.css">
-        <title>Tableau de bord</title>
+        <title>Ajouter une nouvelle filière</title>
     </head>
     <body>
         <table class="nav">
@@ -21,14 +21,34 @@
                         </ul>
                     </li></ul></nav>  
                 </td>
-                <td class="tdb">TABLEAU DE BORD</td>
+                <td class="retour"><a href="../ecran2/index.php"><img src="retour.png"></a></td>
+                <td class="tdb">AJOUTER UNE NOUVELLE FILIERE</td>
                 <td class="deco"><button><img src="déconnexion.png"></button></td>
             </tr>
         </table>
        
         <section>
             <table class="filiere">
-               
+               <tr>
+                   <th colspan="2"><input type="text" name="libelle" id="libelle" placeholder="Libellé"></th>
+                   <th colspan="2"><input type="text" name="nom" id="nom" placeholder="Nom"></th>
+               </tr>
+               <tr>
+                   <th colspan="2"><input type="text" name="referent" id="referent" placeholder="Référent"></th>
+                   <th colspan="2"><input type="text" name="suffixe" id="suffixe" placeholder="Suffixe"></th>
+               </tr>
+               <tr>
+                   <td><input type="text" name="lieu" id="lieu" placeholder="Lieu"></td>
+                   <td><input type="text" name="action" id="action" placeholder="Action"></td>
+                   <td><input type="date" name="date" id="date" placeholder="Début"></td>
+                   <td><input type="number" name="duree" id="duree" placeholder="Durée en jours"></td>
+               </tr>
+               <tr>
+                   <th colspan="4"><input type="button" name="button" id="button" value="+ AJOUTER UN ELEMENT"></th>
+               </tr>
+               <tr>
+                   <th colspan="4"><a href="../ecran3/index.php">VALIDER</a></th>
+               </tr>
             </table>
         </section>
     </body>
