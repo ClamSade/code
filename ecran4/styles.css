@@ -88,6 +88,7 @@ nav ul li:hover ul li
     margin: auto;
     border:  solid 2px rgb(26, 40, 68);
     border-radius: 20px;
+    box-shadow: 2px 3px 2px 3px rgba(0, 0, 0, 0.5);
     margin-top: 50px;
     text-align: center;
     vertical-align: middle;
@@ -105,6 +106,11 @@ nav ul li:hover ul li
     width: 100%;
 }
 
+#button:hover
+{
+    background-color: gainsboro;
+}
+
 th a
 {
     text-decoration: none;
@@ -114,4 +120,8 @@ th a
     border-radius: 5px;
 }
 
+th a:hover
+{
+    background-color: gainsboro;
+}
 

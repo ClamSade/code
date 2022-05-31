@@ -23,7 +23,7 @@
             </div>
 
             <div class="oubli">
-                <span class="psw"><a href="mdp_oublie.php">mot de passe oublié ?</a></span>
+                <span class="psw"><a href="mdp_oublie.php">Mot de passe oublié ?</a></span>
             </div>
 
             <div class="submit">
