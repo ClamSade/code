@@ -8,7 +8,7 @@ include 'db.php';
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <title>Mot de passe</title>
+    <title>Mot de passe oublié</title>
 </head>
 
 <body>
