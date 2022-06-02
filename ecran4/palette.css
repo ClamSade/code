@@ -63,3 +63,10 @@
 	background-color:red;
 	text-align:center;  /* on aligne le texte au centre */
 }
+
+.skin_bouton_OK
+{
+	position:absolute;
+	top:330px;
+	left:220px;
+}

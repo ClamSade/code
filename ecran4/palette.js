@@ -182,3 +182,36 @@ function afficher()  // ici on gère l'affichage de la couleur
     //on applique la couleur rgb au champ resultat
     document.getElementById('resultat').style.backgroundColor="rgb("+r_1+","+g_1+","+b_1+")";
 }
+
+function valider()
+{
+
+	//on fait appel à une fonction dans la page principale pour transmettre le contenu de resultat.
+	window.opener.valid_couleur(document.getElementById("resultat").value);
+ 
+	window.close();
+	//on ferme la palette
+	
+}
+
+
+champ="";
+formulaire="";
+
+function ouvrir_palette(formulaire_recupere,champ_recupere)
+{
+
+	formulaire=formulaire_recupere;
+	champ=champ_recupere;
+ 
+	ma_palette=window.open("palette.html","Palette_de_couleur","height=380,width=400,status=0, scrollbars=0,,menubar=0");
+	// on ouvre la palette
+
+}
+ 
+function valid_couleur(couleur) //fonction appelée lorsqu'on valide la palette. On récupère la couleur.
+{
+
+	document.forms[formulaire].elements[champ].value=couleur;
+
+}
