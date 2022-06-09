@@ -86,9 +86,9 @@ nav ul li:hover ul li
     width: 60%;
     height: 500px;
     margin: auto;
-    border:  solid 2px rgb(26, 40, 68);
+    border:  solid 2px rgb(193, 170, 88);
     border-radius: 20px;
-    box-shadow: 2px 3px 2px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 3px 2px 3px rgba(134, 119, 63, 0.5);
     margin-top: 50px;
     text-align: center;
     vertical-align: middle;
