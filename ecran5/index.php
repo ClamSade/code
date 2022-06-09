@@ -13,7 +13,7 @@
                 <td class="menu">
                     <nav><ul><li><a href="#"><img src="menu.png"/></a>
                         <ul>
-                        <li><a href="../ecran1/index.php">Connexion</a></li>
+                            <li><a href="../ecran1/index.php">Connexion</a></li>
                             <li><a href="../ecran3/index.php">Tableau de bord</a></li>
                             <li><a href="../ecran4/index.php">Calendrier</a></li>
                             <li><a href="../ecran5/index.php">Nouvelle filière</a></li>
@@ -46,7 +46,7 @@
                    <th colspan="4"><input type="color" id="couleur" name="couleur" value="#e66465" placeholder="Couleur"><label for="couleur"></label></th>
                </tr>
                <tr>
-                   <th colspan="4"><a href="../ecran3/index.php">VALIDER</a></th>
+                   <th colspan="4"><a href="../ecran4/index.php">VALIDER</a></th>
                </tr>
             </table>
         </section>
