@@ -16,12 +16,11 @@
                         <li><a href="../ecran1/index.php">Connexion</a></li>
                             <li><a href="../ecran2/index.php">Tableau de bord</a></li>
                             <li><a href="../ecran3/index.php">Calendrier</a></li>
-                            <li><a href="../ecran4/index.php">Nouvelle filière</a></li>
-                            <li><a href="../ecran5/index.php">Nouvelle session</a></li>
+                            <li><a href="../ecran5/index.php">Nouvelle filière</a></li>
+                            <li><a href="../ecran6/index.php">Nouvelle session</a></li>
                         </ul>
                     </li></ul></nav>  
                 </td>
-                <td class="retour"><a href="../ecran2/index.php"><img src="retour.png"></a></td>
                 <td class="tdb">AJOUTER UNE NOUVELLE FILIERE</td>
                 <td class="deco"><button><img src="déconnexion.png"></button></td>
             </tr>
