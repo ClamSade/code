@@ -43,7 +43,7 @@
                    <td><input type="number" name="duree" id="duree" placeholder="Durée en jours"></td>
                </tr>
                <tr>
-                   <th colspan="4"><input type="color" id="couleur" name="couleur" value="#e66465" placeholder="Couleur"><label for="couleur"></label></th>
+                   <th colspan="4"><input type="color" id="couleur" name="couleur" value="#A3F2E6" placeholder="Couleur"><label for="couleur"></label></th>
                </tr>
                <tr>
                    <th colspan="4"><a href="../ecran4/index.php">VALIDER</a></th>
