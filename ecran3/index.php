@@ -26,7 +26,7 @@
             </tr>
         </table>
         <div class="ajout_filiere">
-            <a href="../ecran4/index.php">+ AJOUTER UNE NOUVELLE FILIERE</a>
+            <a href="../ecran5/index.php">+ AJOUTER UNE NOUVELLE FILIERE</a>
         </div>
         <section>
             <table class="planning">

@@ -98,8 +98,11 @@ nav ul li:hover ul li
 .planning
 {
     width: 60%;
+    height: 500px;
     margin: auto;
-    border:  solid 2px rgb(26, 40, 68);
+    border:  solid 2px rgb(193, 170, 88);
+    box-shadow: 3px 4px rgba(134, 119, 63, 0.5);
+    background-color: rgb(193, 170, 88, 0.2);
     border-radius: 20px;
     margin-top: 50px;
     text-align: center;
@@ -111,7 +114,7 @@ nav ul li:hover ul li
     width: 100%;
     border-radius: 5px;
     float: left;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     padding: 5px;
 }
 
