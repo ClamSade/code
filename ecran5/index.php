@@ -25,7 +25,6 @@
                 <td class="deco"><button><img src="déconnexion.png"></button></td>
             </tr>
         </table>
-       
         <section>
             <table class="filiere">
                <tr>

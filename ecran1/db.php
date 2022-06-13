@@ -1,7 +1,7 @@
 <?php
     try
     {
-        $db = new PDO('http://20.111.40.161/phpmyadmin/', 'autoplanning', 'passe_dev');
+        $db = new PDO('mysql : host = ... ; dbname = autoplanning', 'autoplanning', 'passe_dev');
     }
     catch (PDOException $e)
     {
