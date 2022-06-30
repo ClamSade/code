@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
+
+/* GLOBAL */ 
+html {
+	font-size: 62.5%;
+	max-width: 100%;
+	font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+/* HEADER */
+nav {
+	width: 100%;
+	margin: 0 auto;
+	color: rgb(197, 170, 88);
+	position: sticky;	
+	font-weight: bold;
+	z-index: 1000;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	width: 30%;
+	text-align: center;
+	position: relative;	
+	display: inline-block;
+}
+
+nav ul::after {
+	display: table;
+	clear: both;
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+	color: white;
+	border-bottom: 2px solid gold;
+}
+
+nav > ul li:hover .sous {
+	display: block;
+}
+
+h1 {
+	font-size: 3.3em;
+	color: rgb(26, 40, 68);
+	font-weight: bold;
+}
+
+hr {
+	border: none;
+	border-top: 4px double rgb(193, 170, 88);
+	overflow: visible;
+	text-align: center;
+	height: 3.3px;
+}
+
+/* MAIN */
+input {
+	width: 80%;
+	padding: 10px;
+	text-align: center;
+	font-size: 12.5px;
+	border-bottom: 1px solid rgb(26, 40, 68);
+	border-right: none;
+	border-left: none;
+	border-top: none; 
+	color: rgb(26, 40, 68);
+}
+
+label {
+	color: rgb(26, 40, 68);
+	font-size: 15px;
+}
+
+tr, th, td {
+	border-radius: 20px;
+	text-align: center;
+}
+
+/* FOOTER */
+footer, .footer {
+	color: rgb(26, 40, 68);
+	font-size: 1.5em;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+
+
+/* CLASS */
+.sous {
+	display: none;
+	box-shadow: 0px 1px 2px rgb(193, 170, 88);
+	background-color: white;
+	position: absolute;
+	width: 90%;
+	z-index: 1000;
+}
+
+.sous li {
+	float: none;
+	width: 100%;
+	text-align: left;
+	font-size: 1.3em;
+}
+
+.sous a {
+		padding: 10px;
+		border-bottom: none;
+}
+
+.sous a:hover {
+		border-bottom: none;
+		background-color: rgba(26, 40, 68, 0.3);
+}
+
+.deroulant > a::after {
+		font-size: 20px;
+}
+
+.filiere {
+	table-layout: fixed;
+	margin: auto; 
+	margin-top: 15px;
+	width: 80%;
+	height: 530px;
+	border-radius: 20px;
+	border: 2px rgb(26, 40, 68) solid;
+}
+
+
+/* ID */
+#btn_deconnexion {
+	display: inline-block;
+	margin-right: -100px;
+	background: white;
+	border: none;
+	cursor: pointer;
+}
+
+#palette {
+	background-color: transparent;
+	width: 80px;
+	height: 30px;
+	cursor: pointer;
+	border: none;
+	border-bottom: 2px solid rgb(26, 40, 68);
+}
+
+#btn_valider {
+	width: 200%;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	color: rgb(26, 40, 68);
+	text-decoration: none;
+	
+}
