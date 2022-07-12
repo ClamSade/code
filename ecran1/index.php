@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="container">
-        <form action="" method="post" class="connexion">
+        <form action="verification.php" method="POST" class="connexion">
             <div class="logo">
                 <img src="logo_AJC.png">
             </div>
@@ -30,8 +30,18 @@
             </div>
 
             <div class="submit">
-                <input type="submit" value="CONNEXION">
+                <input type="submit" id="submit" value="CONNEXION">
             </div>
+
+            <?php
+                if(isset($_GET['erreur']))
+                {
+                    $err = $_GET['erreur'];
+                    if($err == 1 || $err == 2)
+                        echo "<p style='color:red'>Email ou mot de passe incorrect</p>";
+                }
+            ?>
+
 
         </form>
 

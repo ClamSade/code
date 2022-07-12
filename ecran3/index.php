@@ -32,6 +32,16 @@
             <a href="../ecran5/index.php">+ AJOUTER UNE NOUVELLE FILIERE</a>
         </div>
         <section>
+            <div id="connexion">
+                <?php
+                    session_start();
+                    if($_SESSION['email'] !== "")
+                    {
+                        $user = $_SESSION['email'];
+                        echo "Bonjour $user, vous êtes connecté";
+                    }
+                ?>
+            </div>
             <table class="planning">
                 <tr>
                     <td><h3 class="gauche">FILIERE DU JOUR</h3></td>
