@@ -18,11 +18,11 @@
             </div>
             <div class="login">
                 <label for="email">IDENTIFIANT : </label>
-                <input type="email" name="email" id="email" required>
+                <input type="email" name="email" id="email" >
             </div>
             <div class="password">
                 <label for="password">MOT DE PASSE : </label>
-                <input type="password" name="password" id="password" required>
+                <input type="password" name="password" id="password">
             </div>
 
             <div class="oubli">
@@ -33,15 +33,7 @@
                 <input type="submit" id="submit" value="CONNEXION">
             </div>
 
-            <?php
-                if(isset($_GET['erreur']))
-                {
-                    $err = $_GET['erreur'];
-                    if($err == 1 || $err == 2)
-                        echo "<p style='color:red'>Email ou mot de passe incorrect</p>";
-                }
-            ?>
-
+           
 
         </form>
 
